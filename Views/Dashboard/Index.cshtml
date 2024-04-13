@@ -1,0 +1,55 @@
+﻿@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var httpContext = Context.Request.HttpContext;
+    var userJson = httpContext.Session.GetString("User");
+    var user = userJson != null ? JsonConvert.DeserializeObject<User>(userJson) : null;
+}
+
+<div class="dashboard">
+    @if (user != null)
+    {
+        <a href="@Url.Action("Course", "Dashboard")">Course</a>
+        <a href="@Url.Action("Information", "Dashboard")">Information</a>
+        if (user.Role == UserRole.Admin)
+        {
+            <a href="@Url.Action("Teacher", "Dashboard")">Teacher</a>
+            <a href="@Url.Action("Student", "Dashboard")">Student</a>
+            <a href="@Url.Action("Account", "Dashboard")">Account</a>
+        }
+        else if (user.Role == UserRole.Teacher)
+        {
+            <a href="@Url.Action("Student", "Dashboard")">Student</a>
+        }
+    }
+    <a href="@Url.Action("Logout", "User")">Logout</a>
+</div>
+
+<style>
+    /* CSS */
+    .dashboard {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .dashboard a {
+        text-decoration: none;
+        color: #000;
+        width: 25%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dashboard a[href*="Logout"] {
+        font-size: 16px; /* Adjust size as needed */
+        padding: 15px; /* Adjust padding around button */
+        margin-left: auto; /* Push button to right corner */
+        margin-top: 10px; /* Create space with other buttons */
+    }
+</style>
