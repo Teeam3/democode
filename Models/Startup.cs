@@ -21,6 +21,7 @@ namespace democode
             services.AddControllersWithViews();
             services.AddSession();
             services.AddSingleton<IUserService, UserService>();
+            services.AddSingleton<ICourseService, CourseService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

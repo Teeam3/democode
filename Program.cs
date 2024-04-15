@@ -1,3 +1,4 @@
+using democode.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,8 +7,8 @@ builder.Services.AddSession(); // Add this line
 
 // Register UserService
 
-builder.Services.AddScoped<democode.Models.IUserService, democode.Models.UserService>();
-
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -15,6 +15,7 @@ namespace democode.Models
         public string? Password { get; set; }
         public UserRole Role { get; set; }
         public string? Name { get; set; }
+        public string? Course { get; set; }
     }
 }
 
