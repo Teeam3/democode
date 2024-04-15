@@ -91,7 +91,37 @@ namespace democode.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Index", "User");
         }
-
+        [HttpGet]
+        public IActionResult Update(string id)
+        {
+            var users = _userService.GetById(id);
+            return View(users);
+        }
         // Other actions...
+        [HttpPost]
+        public IActionResult Update(string id, string name, string email)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            if(!email.Contains("@"))
+            {
+                ModelState.AddModelError("Email", "That email is already in use");
+            }
+            var newUser = _userService.Update(id, name,email);
+            return RedirectToAction("Information", "Dashboard");
+        }
+        [HttpGet]
+        public IActionResult GetById()
+        {
+            return View();
+        }
+        [HttpGet("id")]
+        public IActionResult GetById(string id)
+        {
+            var user = _userService.GetById(id);
+            return View(user);
+        }
     }
 }
