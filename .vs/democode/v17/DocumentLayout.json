@@ -6,16 +6,52 @@
       "AbsoluteMoniker": "D:0:0:{F796ADE3-1C30-4F7A-B797-A32051DA0F6D}|..\\SIMSTest\\SIMSTest.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\team\\simstest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\team\\democode\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\views\\dashboard\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:views\\dashboard\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\views\\dashboard\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:views\\dashboard\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\views\\dashboard\\course.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:views\\dashboard\\course.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\views\\course\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:views\\course\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\views\\course\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:views\\course\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\views\\dashboard\\teacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:views\\dashboard\\teacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\models\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:models\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\models\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|solutionrelative:models\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDF31777-74CB-48BF-AA42-C36A47E01CB7}|democode.csproj|C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\json.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -29,8 +65,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAEwB4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T02:16:00.522Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T21:50:26.998Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -49,28 +111,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\SIMSTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\SIMSTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\SIMSTest\\UnitTest1.cs",
-              "RelativeToolTip": "..\\SIMSTest\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T00:15:27.62Z",
+              "DocumentIndex": 4,
+              "Title": "Student.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Dashboard\\Student.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Student.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Dashboard\\Student.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Student.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T03:00:06.817Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAvwDgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T18:29:53.792Z"
             },
             {
               "$type": "Document",
@@ -80,33 +130,137 @@
               "RelativeDocumentMoniker": "Views\\Dashboard\\Information.cshtml",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Dashboard\\Information.cshtml",
               "RelativeToolTip": "Views\\Dashboard\\Information.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T18:46:42.611Z"
+              "WhenOpened": "2024-04-14T18:46:42.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "Course.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Dashboard\\Course.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Course.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Dashboard\\Course.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Course.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T01:10:08.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAMwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T02:05:56.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T18:29:53.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\SIMSTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\SIMSTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\SIMSTest\\UnitTest1.cs",
+              "RelativeToolTip": "..\\SIMSTest\\UnitTest1.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T00:15:27.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Course\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\GetAll.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Course\\GetAll.cshtml",
+              "RelativeToolTip": "Views\\Course\\GetAll.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T02:11:29.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetbyId.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Course\\GetbyId.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\GetbyId.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Course\\GetbyId.cshtml",
+              "RelativeToolTip": "Views\\Course\\GetbyId.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T01:20:47.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Teacher.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Dashboard\\Teacher.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Teacher.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Views\\Dashboard\\Teacher.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Teacher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T02:59:26.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\CourseService.cs",
+              "RelativeDocumentMoniker": "Models\\CourseService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\CourseService.cs",
+              "RelativeToolTip": "Models\\CourseService.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAgwDUAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T01:51:10.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "json.json",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\json.json",
               "RelativeDocumentMoniker": "json.json",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\json.json",
               "RelativeToolTip": "json.json",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAABwAAAAVAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwCQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-14T21:51:52.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBAAAAApAAAA",
+              "DocumentIndex": 12,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Models\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Team\\democode\\Models\\ICourseService.cs",
+              "RelativeToolTip": "Models\\ICourseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T21:50:26.998Z"
+              "WhenOpened": "2024-04-15T02:29:18.649Z"
             }
           ]
         },

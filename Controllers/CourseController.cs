@@ -63,5 +63,12 @@ namespace democode.Controllers
             var newCourse = _course.Update(id, course, teacherName, studentName);
             return RedirectToAction("Course", "Dashboard");
         }
+
+        [HttpGet]
+        public IActionResult Delete(string id)
+        {
+            _course.Delete(id);
+            return RedirectToAction("Course","Dashboard");
+        }
     }
 }

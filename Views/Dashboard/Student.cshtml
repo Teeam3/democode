@@ -27,7 +27,7 @@
                     <td>@user.Email</td>
                     <td>@user.Course</td>
                     <td><a asp-action="Update" asp-controller="User" asp-route-id="@user.Id">Edit</a></td>
-                    <td><a>Remove</a></td>
+                    <td><a asp-action="Delete" asp-controller="User" asp-route-id="@user.Id">Remove</a></td>
                 </tr>
             }
         }     

@@ -1,1 +1,1 @@
-[{"Id":"0923","Name":"HTML","Teachers":[],"Students":[]},{"Id":"7023","Name":"Discrete Math","Teachers":["Teacher2"],"Students":[]},{"Id":"7039","Name":"Business","Teachers":["Teacher2"],"Students":[]},{"Id":"0283","Name":"Database","Teachers":["Teacher1","Teacher1"],"Students":[null]}]
+[{"Id":"7023","Name":"Discrete Math","Teachers":["Teacher2"],"Students":[]},{"Id":"7039","Name":"Business","Teachers":["Teacher2"],"Students":[]},{"Id":"0283","Name":"Database","Teachers":["Teacher1"],"Students":["TheAnh"]}]

@@ -24,6 +24,7 @@ namespace democode.Models
             var courses = LoadCourseFromJson();
             var course = courses.Where(c => c.Id == id).FirstOrDefault();
             courses.Remove(course);
+            SaveCourseToJson(courses);
         }
 
         public IEnumerable<Course> GetAll()
@@ -48,6 +49,12 @@ namespace democode.Models
             newCourse.Students.Add(studentName);
             courses.Remove(oldcourse);
             courses.Add(newCourse);
+            var json = System.IO.File.ReadAllText("json.json");
+            var users = JsonConvert.DeserializeObject<List<User>>(json);
+            var addCourse =  users.FirstOrDefault(u => u.Name == studentName);
+            addCourse.Course = course.Name;
+            var newjson = JsonConvert.SerializeObject(users);
+            System.IO.File.WriteAllText("json.json", newjson);
             SaveCourseToJson(courses);
             return newCourse;
         }

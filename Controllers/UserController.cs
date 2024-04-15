@@ -123,5 +123,11 @@ namespace democode.Controllers
             var user = _userService.GetById(id);
             return View(user);
         }
+        [HttpGet]
+        public IActionResult Delete(string id)
+        {
+            _userService.DeleteUser(id);
+            return Redirect("/Dashboard");
+        }
     }
 }

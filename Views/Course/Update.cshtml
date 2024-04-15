@@ -35,7 +35,7 @@
                     }
                 }
             </select>
-            <select asp-for="@users" name="teacherName" class="inputBox w100" id="teacher_course" required>
+            <select asp-for="@users" name="studentName" class="inputBox w100" id="teacher_course" required>
                 @foreach (var user in users)
                 {
                     @if (user.Role == UserRole.Student)

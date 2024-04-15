@@ -2,15 +2,17 @@
 @using Newtonsoft.Json
 @using System.Web
 @{
-    ViewData["Title"] = "GetbyId";
+    ViewData["Title"] = "Details";
     var httpContext = Context.Request.HttpContext;
     var courseJson = System.IO.File.ReadAllText("courses.json");
     var courses = courseJson != null ? JsonConvert.DeserializeObject<List<Course>>(courseJson) : null;
-    var userJson = System.IO.File.ReadAllText("json.json");
-    var users = courseJson != null ? JsonConvert.DeserializeObject<List<User>>(userJson) : null;
+    var userJsonfile = System.IO.File.ReadAllText("json.json");
+    var users = userJsonfile != null ? JsonConvert.DeserializeObject<List<User>>(userJsonfile) : null;
+    var userJson = httpContext.Session.GetString("User");
+    var cUser = userJson != null ? JsonConvert.DeserializeObject<User>(userJson) : null;
+
 }
 
-<h1>GetbyId</h1>
 
 <div>
     <h4>Courses</h4>
@@ -24,6 +26,8 @@
                 <label>Id: @course.Id</label><br />
                 <label>Name: @course.Name</label>
             </div>
+            @if (cUser.Role == UserRole.Admin)
+            {
                <h2>Student</h2>
             <table class="col-4">
                <tr>
@@ -31,6 +35,7 @@
                    <th>Name</th>
                    <th>Email</th>
                </tr>
+               
                 @foreach(var user in users)
                 {
                     if (user.Role == UserRole.Student && user.Course == course.Name)
@@ -42,9 +47,10 @@
                         </tr>
                     }
                 }
-               
+                
 
             </table>
+                }
             <h2 class="">Teacher</h2>
             <table class="col-4">
                 <tr>
