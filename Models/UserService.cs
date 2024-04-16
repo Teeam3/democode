@@ -54,8 +54,8 @@ namespace democode.Models
             var users = LoadUsersFromJson();
             var user = users.FirstOrDefault(u => u.Id == id);
             var newUser = users.FirstOrDefault(u => u.Id == id);
-            user.Name = name;
-            user.Email = email;
+            newUser.Name = name;
+            newUser.Email = email;
             users.Remove(user);
             users.Add(newUser);
             SaveUsersToJson(users);

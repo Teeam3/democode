@@ -14,15 +14,7 @@ namespace democode.Controllers
         }
         public IActionResult Index()
         {
-            var userJson = HttpContext.Session.GetString("User");
-            var user = userJson != null ? JsonConvert.DeserializeObject<User>(userJson) : null;
-
-            if (user == null)
-            {
-                return RedirectToAction("Index", "User");
-            }
-
-            ViewBag.User = user;
+            
 
             return View();
         }

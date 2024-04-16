@@ -42,13 +42,11 @@ namespace democode.Controllers
         {
             return View();
         }
-
         public IActionResult Information(string id)
         {
             var users = _userService.GetById(id);
             return View(users);
         }
-
         public IActionResult Account()
         {
             return View();

@@ -1,13 +1,10 @@
 ﻿@model democode.Models.User
 @using Newtonsoft.Json
 @{
-    ViewData["Title"] = "Profile";
     var courseJson = System.IO.File.ReadAllText("courses.json");
     var courses = courseJson != null ? JsonConvert.DeserializeObject<List<Course>>(courseJson) : null;
+    ViewData["user"] = Model;
 }
-
-
-
 <div>
     <h4>User</h4>
     <hr />
@@ -24,8 +21,6 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Email)
         </dd>
-
-
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
@@ -34,24 +29,7 @@
         </dd>
     </dl>
 </div>
-<table class="col-4">
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-    </tr>
-    @foreach(var c in courses)
-    {
-        if(c.Students.Contains(Model.Name))
-        {
-            <tr>
-                <td>@c.Id</td>
-                <td>@c.Name</td>
-            </tr>
-        }
-       
-    }
 
-</table>
 <div>
     <a asp-action="Update" asp-controller="User" asp-route-id="@Model.Id">Update</a>
 </div>
